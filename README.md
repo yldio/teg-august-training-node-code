@@ -1,1 +1,1 @@
-# teg-august-training-node-code
+# TEG August 2015 Training - Node - Code

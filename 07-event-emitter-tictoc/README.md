@@ -8,3 +8,9 @@
 * followed by a `tic` event one second later
 * etc.
 * Event payload is the current timestamp
+
+Test it:
+
+```
+$ node main
+```

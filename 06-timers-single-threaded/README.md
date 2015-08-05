@@ -1,4 +1,4 @@
-## Exercise 5
+## Exercise 6
 
 # Demonstrating Node is single-threaded
 

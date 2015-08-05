@@ -9,5 +9,5 @@ Create a module named `pick` that exports a function that implements the followi
 
 ```js
 var pick = require('./pick');
-pick('name', {name: "Pedro", age: 40}); // => "Pedro"
+console.log(pick('name', {name: "Pedro", age: 40})); // => "Pedro"
 ```

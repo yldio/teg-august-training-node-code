@@ -1,2 +1,2 @@
 var pick = require('./pick');
-pick('name', {name: "Pedro", age: 40}); // => "Pedro"
+console.log(pick('name', {name: "Pedro", age: 40})); // => "Pedro"

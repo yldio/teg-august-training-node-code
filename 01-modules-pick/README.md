@@ -5,7 +5,7 @@
 Create a module named `pick` that exports a function that implements the following behaviour:
 
 
-** main.js:**
+**main.js:**
 
 ```js
 var pick = require('./pick');

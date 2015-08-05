@@ -10,3 +10,8 @@
     - `underscore`: exactly 1.8.3
 * Install these dependencies.
 * Create an `index.js` file that requires all these modules.
+
+
+## Resources
+
+* [node-semver](https://github.com/npm/node-semver)

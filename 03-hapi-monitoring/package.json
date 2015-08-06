@@ -1,0 +1,17 @@
+{
+  "name": "03-hapi-monitoring",
+  "version": "1.0.0",
+  "description": "Hapi monitoring exercise base",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "YLD",
+  "dependencies": {
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.1",
+    "joi": "^6.6.1",
+    "wreck": "^6.1.0"
+  }
+}

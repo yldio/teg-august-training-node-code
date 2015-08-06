@@ -8,6 +8,9 @@
   },
   "author": "YLD",
   "dependencies": {
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "good-squeeze": "^2.1.0",
     "hapi": "^8.8.1",
     "joi": "^6.6.1",
     "wreck": "^6.1.0"

@@ -10,4 +10,27 @@ server.connection({
   port: process.env.SERVER_PORT || 4000
 });
 
-require('./routes');
+var events =  {
+  'request':  '*',
+  'response': '*',
+  'error':    '*'
+};
+
+if (process.env.NODE_ENV === 'test')
+  events = {};
+
+var goodOptions = {
+  opsInterval: 1000,
+  reporters: [
+    {
+      reporter: require('./custom-reporter'),
+      events: events
+    }
+  ]
+};
+
+server.register([{ register: require('good'), options: goodOptions}], function(err) {
+  if (err) throw err;
+
+  require('./routes');
+});

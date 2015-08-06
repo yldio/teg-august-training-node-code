@@ -14,12 +14,14 @@ server.route({
     }
   },
   handler: function(request, reply) {
+    request.log('saving url', request.payload.url);
     request.server.methods.shorteners.create(request.payload.url, saved);
 
     function saved(err, res) {
       if (err)
         return reply(err);
 
+      request.log('saved url', {url: request.payload.url, res: res});
       reply(res);
     }
   }
@@ -30,6 +32,7 @@ server.route({
   method: 'GET',
   path: '/lookup/{id}',
   handler: function(request, reply) {
+    doesnotexist();
     request.server.methods.shorteners.get(request.params.id, fetched);
 
     function fetched(err, result) {

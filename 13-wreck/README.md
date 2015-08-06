@@ -19,4 +19,4 @@ While that is running, start the main script:
 
 ```
 $ node main
-``
+```

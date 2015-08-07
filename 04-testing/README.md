@@ -10,11 +10,11 @@ Simple Service to save and fetch shortener urls
 
 .env
 
-````
-    DBPATH=<database file directory, will create if not exist>
-    SERVER_PORT=<server port to listen [default 4000]>
-    SERVER_BIND=<server socket bind to [default localhost]>
-````
+```
+DBPATH=<database file directory, will create if not exist>
+SERVER_PORT=<server port to listen [default 4000]>
+SERVER_BIND=<server socket bind to [default localhost]>
+```
 
 ### Testing
   npm test
@@ -22,7 +22,7 @@ Simple Service to save and fetch shortener urls
 
 ### Documentation
 
-````
-  npm start
-  open http://localhost:3000/documentation
-````
+```
+$ npm start
+$ open http://localhost:3000/documentation
+```
